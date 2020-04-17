@@ -89,6 +89,7 @@ div.columnMenu {
     position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     top: 9%;
     left: 0.89%;
     filter:invert(100%);
@@ -126,4 +127,22 @@ h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
     font-size: 350%;
+}
+
+table{
+    position: relative;
+    left: 11em;
+    top: 15em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.table{
+    padding-right: 30em;
+}
+td{
+    border-top: solid grey 0.8px;
+    padding:1em;
+}
+th{
+    color: grey;
 }
